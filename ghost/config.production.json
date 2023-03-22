@@ -1,0 +1,29 @@
+{
+    "url": "https://your-ghost-blog.com",
+    "server": {
+      "port": 2368,
+      "host": "0.0.0.0"
+    },
+    "database": {
+      "client": "mysql",
+      "connection": {
+        "host": "your-database-host",
+        "user": "your-database-user",
+        "password": "your-database-password",
+        "database": "your-database-name"
+      }
+    },
+    "mail": {
+      "transport": "SMTP",
+      "options": {
+        "host": "your-smtp-host",
+        "port": 465,
+        "secureConnection": true,
+        "auth": {
+          "user": "your-smtp-user",
+          "pass": "your-smtp-password"
+        }
+      }
+    }
+  }
+  
